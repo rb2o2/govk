@@ -10,7 +10,7 @@ import play.api.db._
 object Application extends Controller {
 
   def index = Action {
-    Ok(views.html.index(null))
+    Ok(views.html.index("Добро пожаловать в Го Вконтакте (версия. 0.1)!"))
   }
 
   def db = Action {
