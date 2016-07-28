@@ -15,7 +15,6 @@ function inMoves(moves,x,y) {
 window.onload = function () {
     var moves = []
     var move = function (x,y) {
-    console.log(moves,x,y)
         if (!inMoves(moves,x,y)) {
             moves.push([x,y])
             var left = (x - 1)*23 -23
@@ -44,11 +43,9 @@ window.onload = function () {
     }
     var blackmove = true
     var makeMove = function (clickevt) {
-    console.log(clickevt)
         if (clickevt.target == clickevt.currentTarget) {
         var x = Math.round((clickevt.offsetX +10)/23+1)
         var y = Math.round((clickevt.offsetY +10)/23+1)
-        console.log(x,y)
         move(x,y)
         }
     }
