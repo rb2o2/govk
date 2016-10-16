@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "Go VK",
   "description": "Гобан для соцсети ВКонтакте",
+=======
+  "name": "Start on Heroku: Scala",
+  "description": "A barebones Scala app (using the Play framework), which can easily be deployed to Heroku.",
+>>>>>>> d8702af1f6da7b67b4a315afa75273ca86a7a38b
   "image": "heroku/scala",
   "addons": [ "heroku-postgresql" ]
 }
